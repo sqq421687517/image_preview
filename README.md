@@ -1,5 +1,5 @@
-<script>
-//下面用于图片上传预览功能
+&gt;script&lt;
+	//下面用于图片上传预览功能
 function setImagePreview(avalue) {
 	var docObj = document.getElementById("doc");
 	var imgObjPreview = document.getElementById("preview");
@@ -32,4 +32,4 @@ function setImagePreview(avalue) {
 	}
 	return true;
 }
-</script>
+&gt;/script&lt;
