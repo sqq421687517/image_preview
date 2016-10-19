@@ -1,6 +1,7 @@
-&gt;script&lt;
+&lt;script&gt;
 	//下面用于图片上传预览功能
 function setImagePreview(avalue) {
+
 	var docObj = document.getElementById("doc");
 	var imgObjPreview = document.getElementById("preview");
 	if (docObj.files && docObj.files[0]) {
@@ -31,5 +32,6 @@ function setImagePreview(avalue) {
 		document.selection.empty();
 	}
 	return true;
+	
 }
-&gt;/script&lt;
+&lt;/script&gt;
